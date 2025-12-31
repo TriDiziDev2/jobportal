@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+.login-page-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-page-form-content-container {
+  width: 85%;
+  margin: 32px auto;
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Arimo';
+}
+
+.login-page-form-container {
+  width: 50%;
+  padding: 32px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.job-portal-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.job-portal-icon-container {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  background-color: #ffc300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.brief-case-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.job-portal-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.job-portal-heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f6f6f6;
+}
+
+.job-portal-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.login-page-heading {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #f6f6f6;
+}
+
+.login-page-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.label-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #f6f6f6;
+}
+
+.email-container {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  border: 1px solid #d3d3d3;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.mail-icon {
+  width: 16.67px;
+  height: 16.67px;
+  color: #6f6f6f;
+}
+
+.input-email {
+  width: 100%;
+  border: none;
+  padding: 3px 8px;
+  outline: none;
+}
+
+.input-email::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #00000080;
+}
+
+.login-page-checkbox-remember-container {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-page-checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.input-checkbox {
+  width: 18px;
+  height: 18px;
+}
+
+.password-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-decoration: underline;
+  color: #ffc300;
+  cursor: pointer;
+}
+
+.signin-btn {
+  width: 60%;
+  background-color: #ffc300;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 700;
+}
+
+.account-text {
+  width: 60%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #d3d3d3;
+  text-align: center;
+}
+
+.signup-text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-decoration: underline;
+  color: #ffc300;
+  cursor: pointer;
+}
+
+.login-page-content-container {
+  position: relative;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.login-page-gradient-container {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(
+    70.71% 70.71% at 50% 50%,
+    rgba(255, 195, 0, 0.3) 0%,
+    rgba(255, 195, 0, 0.1) 50%,
+    rgba(0, 0, 0, 0) 70%
+  );
+  backdrop-filter: blur(120px);
+  top: 20px;
+  right: 0;
+}
+
+.login-page-content-brief-case-container {
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
+  background-color: #ffc300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content-briefcase-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.content-heading {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #f6f6f6;
+}
+
+.content-text {
+  width: 63%;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: #d3d3d3;
+  text-align: center;
+}
