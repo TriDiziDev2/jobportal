@@ -3,6 +3,7 @@ import './FreelanceGigs.css';
 const FreelanceGigs = () => {
   return (
     <div className='dashboard-container'>
+<<<<<<< HEAD
       <div className='jobheader'>
         <div className='jobleft'>
         <h1 className='dashboard-heading'>Freelance Gigs</h1>
@@ -177,6 +178,9 @@ const FreelanceGigs = () => {
         <div className='editoption'></div>
         <div className='deleteoption'></div> </div>
       </div>
+=======
+      <h1 className='dashboard-heading'>Freelance Gigs Overview</h1>
+>>>>>>> 25bf0415933b5bd936ce853787bf116edf3b1837
     </div>
   );
 };
