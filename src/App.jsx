@@ -13,6 +13,7 @@ import Income from './pages/Income/Income';
 import Reports from './pages/Reports/Reports';
 import Support from './pages/Support/Support';
 import Login from './pages/Login/Login';
+import Institutes from './pages/Institutes/Institutes';
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
           <Route path='income' element={<Income />} />
           <Route path='reports' element={<Reports />} />
           <Route path='support' element={<Support />} />
+          <Route path='institutes' element={<Institutes />} />
         </Route>
         <Route path='/login' element={<Login />} />
       </Routes>

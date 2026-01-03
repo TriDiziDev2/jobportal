@@ -1,0 +1,45 @@
+.performance-card-container {
+  background: #023047;
+  border: 0.8px solid #6f6f6f;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.performance-card-icon-container {
+  height: 48px;
+  width: 48px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.performance-card-title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.performance-card-number {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #f6f6f6;
+}
+
+.performance-card-text-container {
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}

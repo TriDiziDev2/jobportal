@@ -1,0 +1,22 @@
+.footer-card-container {
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.footer-card-icon {
+  font-size: 24px;
+  color: #f6f6f6;
+}
+
+.footer-card-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #f6f6f6;
+}

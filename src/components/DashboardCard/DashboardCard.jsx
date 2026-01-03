@@ -1,14 +1,26 @@
 import './DashboardCard.css';
 
-import { IoArrowUpSharp } from 'react-icons/io5';
+import { MdArrowOutward } from 'react-icons/md';
 
-const DashboardCard = ({ icon, title, percentage, number, subTotal }) => {
+const DashboardCard = ({
+  icon,
+  title,
+  percentage,
+  number,
+  subTotal,
+  backgroundColor,
+}) => {
   return (
     <div className='dashboard-card-container'>
       <div className='dashboard-card-icon-percent-container'>
-        <div className='dashboard-card-icon-container'>{icon}</div>
+        <div
+          className='dashboard-card-icon-container'
+          style={{ background: backgroundColor, fontSize: '24px' }}
+        >
+          {icon}
+        </div>
         <div className='dashboard-card-percentage-container'>
-          <IoArrowUpSharp className='dashboard-card-up-icon' />
+          <MdArrowOutward className='dashboard-card-up-icon' />
           <p className='dashboard-card-percentage-text'>{percentage}</p>
         </div>
       </div>

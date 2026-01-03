@@ -3,8 +3,25 @@ import './Login.css';
 import { FiBriefcase } from 'react-icons/fi';
 import { MdOutlineEmail } from 'react-icons/md';
 import { FiLock } from 'react-icons/fi';
+import { useState } from 'react';
 
 const Login = () => {
+  const [user, setUser] = useState({
+    email: '',
+    password: '',
+    rememberMe: false,
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setUser((prevUser) => ({ ...prevUser, [name]: value }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(user);
+  };
+
   return (
     <div className='login-page-container'>
       <div className='login-page-form-content-container'>
@@ -22,7 +39,7 @@ const Login = () => {
           <p className='login-page-text'>
             Sign in to access your admin dashboard
           </p>
-          <form className='form'>
+          <form className='form' onSubmit={handleSubmit}>
             <label className='label-text'>Email Address</label>
             <div className='email-container'>
               <MdOutlineEmail className='mail-icon' />
@@ -30,6 +47,9 @@ const Login = () => {
                 type='text'
                 placeholder='admin@jobportal.com'
                 className='input-email'
+                name='email'
+                value={user.email}
+                onChange={(e) => handleChange(e)}
               />
             </div>
             <label className='label-text'>Password</label>
@@ -39,16 +59,28 @@ const Login = () => {
                 type='text'
                 placeholder='Enter your password'
                 className='input-email'
+                name='password'
+                value={user.password}
+                onChange={(e) => handleChange(e)}
               />
             </div>
             <div className='login-page-checkbox-remember-container'>
               <div className='login-page-checkbox-container'>
-                <input type='checkbox' className='input-checkbox' />
+                <input
+                  type='checkbox'
+                  className='input-checkbox'
+                  name='rememberMe'
+                  value={user.rememberMe}
+                  onChange={(e) => handleChange(e)}
+                  checked={user.rememberMe === true}
+                />
                 <label className='label-text'>Remember Me</label>
               </div>
               <p className='password-text'>Forgot Password?</p>
             </div>
-            <button className='signin-btn'>Sign In</button>
+            <button type='submit' className='signin-btn'>
+              Sign In
+            </button>
             <p className='account-text'>
               Don't have an account?<span className='signup-text'>Sign Up</span>
             </p>

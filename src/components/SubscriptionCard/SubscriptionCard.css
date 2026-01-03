@@ -1,0 +1,68 @@
+.subscription-card-container {
+  background: #023047;
+  border: 1.6px solid #ffc300;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.subscription-card-icon-percent-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subscription-card-icon-container {
+  height: 32px;
+  width: 32px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription-card-percent {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #22c55e;
+}
+
+.subscription-card-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #f6f6f6;
+}
+
+.subscription-card-plan {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffc300;
+}
+
+.subscription-card-cost-container {
+  border-top: 0.8px solid #6f6f6f;
+  padding-top: 12.8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.subscription-card-subscribers {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.subscription-card-cost {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #22c55e;
+}

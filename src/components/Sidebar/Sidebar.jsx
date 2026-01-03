@@ -79,6 +79,12 @@ const linksData = [
     title: 'Support',
     link: '/support',
   },
+  {
+    id: 12,
+    icon: <RiHeadphoneLine />,
+    title: 'Institutes',
+    link: '/institutes',
+  },
 ];
 
 const Sidebar = () => {

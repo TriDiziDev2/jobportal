@@ -1,0 +1,40 @@
+.notification-card-container {
+  background: #023047;
+  border: 0.8px solid #6f6f6f;
+  padding: 16.8px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.notification-icon-title-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.notification-card-icon {
+  height: 16px;
+  width: 16px;
+}
+
+.notification-card-title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.notification-card-number {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #f6f6f6;
+}
+
+.notification-card-rate {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
