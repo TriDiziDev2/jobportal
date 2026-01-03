@@ -1,0 +1,229 @@
+.jobheader{
+    height: 78;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobleft {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.jobcount {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.jobcount .count {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.jobcount .label {
+  font-size: 14px;
+  opacity: 0.8;
+  color: #6F6F6F;
+}
+
+.addjob{
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FFC300;
+    color: #023047;
+    font-size: 14px;
+    border: none;
+    width: 165px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.filters{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+
+}
+
+.filteroptions{
+    height: 170px;
+    width: auto;
+    border-radius: 10px;
+    border: 1px solid #6F6F6F;
+    background-color: #023047;
+}
+
+.jobtype{
+    height: 78px;
+    width: auto;
+    padding: 24px;
+    color: #D3D3D3;
+    font-size: 16px;
+}
+
+.jobtypebutton{
+    height: 42px;
+    width: auto;
+    border-radius: 10px;
+    border: 1px;
+    border-color: #FFC300;
+    margin-right: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 100px;
+    padding: 10px;
+    text-align: center;
+    background-color: #6F6F6F;
+    color: #f6f6f6;
+}
+
+.searchbar {
+    height: 45px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    margin-top: 10px;
+}
+
+.searchjobs{
+    border-radius: 10px;
+    border: 1px solid #6F6F6F;
+    width: 950px;
+    height: 42px;
+    padding: 10px;
+    margin-right: 30px;
+    color: #f6f6f6;
+    font-size: 16px;
+    opacity: 50%;
+    font-weight: 100px;
+}
+
+.morefilters{
+    height: 42px;
+    color: #f6f6f6;
+    font-weight: 100px;
+    width: 145px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #6F6F6F;
+    background-color: #023047;
+    padding: 5px;
+}
+
+.job1{
+    height: 158px;
+    width: auto;
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid #6F6F6F;
+    display: flex;
+    background-color: #023047;
+    justify-content: space-between;
+}
+
+.jobicon{
+    background-color:#FFC300;
+    border-radius: 10px;
+    height: 48px;
+    width: 48px;  
+       box-shadow:
+  0 0 12px rgba(255, 195, 0, 0.35),
+  0 0 30px rgba(255, 195, 0, 0.18);  
+}
+
+.jobinfo{
+    height: 108px;
+    width: 950px;
+    margin-left: 20px;
+}
+
+.jobtitle{
+    font-size: 20px;
+    color: #f6f6f6;
+    font-weight: 300px;
+}
+
+.protag{
+    height: 10px;
+    width: auto;
+    color: #023047;
+    background-color: #FFC300;
+    border-radius: 5px;
+    font-size: 12px;
+    border-color: none;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.jobdetails{
+    width: auto;
+    margin-top: 20px;
+    font-size: 14px;
+    color:#D3D3D3;
+}
+
+.jobtypetag{
+    font-size: 12px;
+    padding: 5px;
+    color: #f6f6f6;
+    margin-left: 20px;
+}
+
+.depttag{
+    height: 24px;
+    background-color:#6F6F6F;
+    color: #f6f6f6;
+    border-radius: 4px;
+    border-color: none;
+    font-size: 12px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.applicationstag{
+    font-size: 12px;
+    margin-top: 20px;
+    color: #d3d3d3;
+}
+
+.jobactions{
+    height: 40px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.activetag{
+    height: 20px;
+    width: auto;
+    color: #023047;
+    background-color: #FFC300;
+    border-radius: 8px;
+    font-size: 12px;
+    border-color: none;
+    margin-right: 10px;
+    padding: 3px;
+    box-shadow:
+  0 0 12px rgba(255, 195, 0, 0.35),
+  0 0 30px rgba(255, 195, 0, 0.18);
+}
+
+.editoption{
+    background-color: #FFC300;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    border-color: none;
+    margin-left: 10px;
+}
+
+.deleteoption{
+    background-color: #6F6F6F;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    border-color: none;
+    margin-left: 10px;
+}
