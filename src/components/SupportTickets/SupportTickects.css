@@ -198,3 +198,29 @@ tbody tr td {
   cursor: pointer;
   color: #f6f6f6;
 }
+
+.ticket-status {
+  height: 24px;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.open {
+  background: #d3d3d333;
+  border: 1px solid #6f6f6f;
+  color: #f6f6f6;
+}
+
+.inprogress {
+  background: #6f6f6f33;
+  border: 1px solid #6f6f6f;
+  color: #d3d3d3;
+}
+
+.resolved {
+  background: #ffc30033;
+  border: 1px solid #ffc300;
+  color: #ffc300;
+}

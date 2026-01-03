@@ -1,0 +1,23 @@
+.chart-container {
+  width: 611px;
+  height: 458px;
+  background: #023047;
+  border: 1px solid #6f6f6f;
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.chart-heading {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #f6f6f6;
+}
+
+.chart-content-container {
+  width: 561px;
+  height: 300px;
+}

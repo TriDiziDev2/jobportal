@@ -19,6 +19,11 @@ import TopCompaniesCard from '../../components/TopCompaniesCard/TopCompaniesCard
 import ActivitiesCard from '../../components/ActivitiesCard/ActivitiesCard';
 import SystemHealthCard from '../../components/SystemHealthCard/SystemHealthCard';
 import SupportTickets from '../../components/SupportTickets/SupportTickets';
+import RecentApplications from '../../components/RecentApplications/RecentApplications';
+import AreaChart from '../../components/AreaChart/AreaChart';
+import PieChart from '../../components/PieChart/PieChart';
+import BarChart from '../../components/BarChart/BarChart';
+import DoughnutChart from '../../components/DoughnutChart/DoughnutChart';
 
 const data = [
   {
@@ -130,12 +135,19 @@ const Dashboard = () => {
           ))}
         </div>
       </div>
+      <div className='dashboard-charts-grid-container'>
+        <AreaChart />
+        <PieChart />
+        <BarChart />
+        <DoughnutChart />
+      </div>
       <div className='dashboard-company-activity-health-grid-container'>
         <TopCompaniesCard />
         <ActivitiesCard />
         <SystemHealthCard />
       </div>
       <SupportTickets />
+      <RecentApplications />
     </div>
   );
 };

@@ -95,7 +95,13 @@ const SupportTickets = () => {
                 >
                   {ticket.priority}
                 </td>
-                <td>{ticket.status}</td>
+                <td
+                  className={`ticket-status ${ticket.status
+                    .replace(' ', '')
+                    .toLowerCase()}`}
+                >
+                  {ticket.status}
+                </td>
                 <td className='ticket-time'>{ticket.time}</td>
                 <td className='ticket-view-container'>
                   <div className='view-container'>

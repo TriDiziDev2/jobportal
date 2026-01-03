@@ -1,0 +1,42 @@
+.application-candidate {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #f6f6f6;
+}
+
+.fulltime {
+  background: #02304780;
+  border: 1px solid #6f6f6f;
+  color: #f6f6f6;
+}
+
+.internship {
+  background: #ffc30033;
+  border: 1px solid #ffc300;
+  color: #ffc300;
+}
+
+.freelance {
+  background: #6f6f6f33;
+  border: 1px solid #6f6f6f;
+  color: #f6f6f6;
+}
+
+.pending {
+  background: #d3d3d333;
+  border: 1px solid #6f6f6f;
+  color: #d3d3d3;
+}
+
+.approved {
+  background: #ffc30033;
+  border: 1px solid #ffc300;
+  color: #ffc300;
+}
+
+.rejected {
+  background: #6f6f6f33;
+  border: 1px solid #6f6f6f;
+  color: #6f6f6f;
+}
