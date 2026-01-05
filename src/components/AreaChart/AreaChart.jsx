@@ -25,48 +25,79 @@ ChartJS.register(
   Legend
 );
 
-const platformActivityData = {
+export const revenueTrendsData = {
   labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
   datasets: [
     {
-      label: 'Full-time Jobs',
-      data: [65, 78, 90, 82, 95, 110],
-      borderColor: '#ffc300',
-      backgroundColor: '#ffc10740',
-      tension: 0.4,
+      label: 'Courses',
+      data: [35, 38, 42, 45, 48, 52],
+      borderColor: '#6B7280',
+      backgroundColor: 'rgba(107,114,128,0.25)',
       fill: true,
+      tension: 0.4,
       pointRadius: 0,
     },
     {
       label: 'Internships',
-      data: [25, 30, 35, 28, 36, 40],
-      borderColor: '#4DD0E1',
-      backgroundColor: '#4dd0e126',
-      tension: 0.4,
+      data: [45, 48, 52, 55, 60, 65],
+      borderColor: '#8B5CF6',
+      backgroundColor: 'rgba(139,92,246,0.25)',
       fill: true,
+      tension: 0.4,
       pointRadius: 0,
     },
     {
-      label: 'Part-time Jobs',
-      data: [15, 18, 22, 20, 28, 32],
-      borderColor: '#d3d3d3',
-      backgroundColor: '#90a4ae26',
-      tension: 0.4,
+      label: 'Subscriptions',
+      data: [30, 32, 35, 38, 40, 43],
+      borderColor: '#FACC15',
+      backgroundColor: 'rgba(250,204,21,0.55)',
       fill: true,
+      tension: 0.4,
       pointRadius: 0,
     },
   ],
 };
 
-const options = {};
+export const lineOptions = {
+  responsive: true,
+  plugins: {
+    legend: {
+      position: 'bottom',
+      labels: {
+        color: '#9CA3AF',
+        usePointStyle: true,
+        pointStyle: 'circle',
+      },
+    },
+  },
+  scales: {
+    x: {
+      grid: {
+        color: 'rgba(255,255,255,0.15)',
+        borderDash: [4, 4],
+      },
+      ticks: {
+        color: '#9CA3AF',
+      },
+    },
+    y: {
+      grid: {
+        color: 'rgba(255,255,255,0.15)',
+        borderDash: [4, 4],
+      },
+      ticks: {
+        color: '#9CA3AF',
+      },
+    },
+  },
+};
 
 const AreaChart = () => {
   return (
     <div className='chart-container'>
-      <h2 className='chart-heading'>Platform Activity Trends</h2>
-      <div className='chart-content-container'>
-        <Line options={options} data={platformActivityData} />
-      </div>
+      <h2 className='chart-heading'>Revenue Trends</h2>
+      <p className='chart-text'>Multi-stream income growth</p>
+      <Line options={lineOptions} data={revenueTrendsData} />
     </div>
   );
 };

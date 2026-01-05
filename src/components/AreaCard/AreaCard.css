@@ -1,0 +1,97 @@
+.area-card-container {
+  background: #023047;
+  border: 0.8px solid #6f6f6f;
+  border-radius: 10px;
+  padding: 24.8px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.area-card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.area-card-heading {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #ffc300;
+}
+
+.area-card-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.area-card-data-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.area-card-item-container {
+  background: #023047;
+  border: 0.8px solid #6f6f6f;
+  padding: 16px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.area-card-item-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.area-card-item-color {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+}
+
+.area-card-header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.area-card-item-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #f6f6f6;
+}
+
+.area-card-item-transaction {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.area-card-item-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.area-card-item-cost {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffc300;
+}
+
+.area-card-item-percentage {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #22c55e;
+}

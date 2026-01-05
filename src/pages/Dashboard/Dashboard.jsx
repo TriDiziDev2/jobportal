@@ -30,6 +30,8 @@ import NotificationCard from '../../components/NotificationCard/NotificationCard
 import Card from '../../components/Card/Card';
 import PerformanceCard from '../../components/PerformanceCard/PerformanceCard';
 import FooterCard from '../../components/FooterCard/FooterCard';
+import AreaCard from '../../components/AreaCard/AreaCard';
+import ActivityCard from '../../components/ActivityCard/ActivityCard';
 
 const data = [
   {
@@ -308,13 +310,15 @@ const footerData = [
     id: 1,
     icon: <FiPlus />,
     backgroundColor: '#ffc300',
-    color: '',
+    color: '#023047',
+    borderColor: '',
     title: 'Post Job',
   },
   {
     id: 2,
     icon: <IoNotificationsOutline />,
     backgroundColor: '#023047',
+    borderColor: '#ffc300',
     color: '#ffc300',
     title: 'Send Push',
   },
@@ -322,28 +326,32 @@ const footerData = [
     id: 3,
     icon: <TbBuildingCommunity />,
     backgroundColor: '#023047',
-    color: '#6f6f6f',
+    borderColor: '#6f6f6f',
+    color: '#f6f6f6',
     title: 'Add Institute',
   },
   {
     id: 4,
     icon: <IoBookOutline />,
     backgroundColor: '#023047',
-    color: '#6f6f6f',
+    borderColor: '#6f6f6f',
+    color: '#f6f6f6',
     title: 'Add Course',
   },
   {
     id: 5,
     icon: <GoPerson />,
     backgroundColor: '#023047',
-    color: '#6f6f6f',
+    borderColor: '#6f6f6f',
+    color: '#f6f6f6',
     title: 'Add Tutor',
   },
   {
     id: 6,
     icon: <AiOutlineBarChart />,
     backgroundColor: '#023047',
-    color: '#6f6f6f',
+    borderColor: '#6f6f6f',
+    color: '#f6f6f6',
     title: 'View Reports',
   },
 ];
@@ -422,6 +430,98 @@ const Dashboard = () => {
             <Card key={item.id} {...item} />
           ))}
         </div>
+      </div>
+      <div className='dashboard-user-conversion-funnel-container'>
+        <div className='dashboard-user-conversion-funnel-heading-container'>
+          <h2 className='dashboard-user-conversion-funnel-heading'>
+            User Conversion Funnel
+          </h2>
+          <p className='dashboard-user-conversion-funnel-text'>
+            From cold leads to paid subscribers
+          </p>
+        </div>
+        <div className='dashboard-user-conversion-funnel-bar-container'>
+          <div className='dashboard-user-conversion-funnel-content-container'>
+            <h3 className='dashboard-user-conversion-funnel-title'>
+              Cold Leads
+            </h3>
+            <div className='dashboard-user-conversion-funnel-users-percentage-container'>
+              <p className='dashboard-user-conversion-funnel-users'>
+                2,850 users
+              </p>
+              <p className='dashboard-user-conversion-funnel-percentage'>
+                100%
+              </p>
+            </div>
+          </div>
+          <div className='dashboard-user-conversion-funnel-bar white'></div>
+        </div>
+        <div className='dashboard-user-conversion-funnel-bar-container'>
+          <div className='dashboard-user-conversion-funnel-content-container'>
+            <h3 className='dashboard-user-conversion-funnel-title'>
+              Engaged Users
+            </h3>
+            <div className='dashboard-user-conversion-funnel-users-percentage-container'>
+              <p className='dashboard-user-conversion-funnel-users'>
+                1,425 users
+              </p>
+              <p className='dashboard-user-conversion-funnel-percentage'>50%</p>
+            </div>
+          </div>
+          <div className='dashboard-user-conversion-funnel-bar grey'></div>
+        </div>
+        <div className='dashboard-user-conversion-funnel-bar-container'>
+          <div className='dashboard-user-conversion-funnel-content-container'>
+            <h3 className='dashboard-user-conversion-funnel-title'>
+              Active Users
+            </h3>
+            <div className='dashboard-user-conversion-funnel-users-percentage-container'>
+              <p className='dashboard-user-conversion-funnel-users'>
+                855 users
+              </p>
+              <p className='dashboard-user-conversion-funnel-percentage'>30%</p>
+            </div>
+          </div>
+          <div className='dashboard-user-conversion-funnel-bar grey'>
+            <div className='dashboard-user-conversion-funnel-child-bar dark-blue'></div>
+          </div>
+        </div>
+        <div className='dashboard-user-conversion-funnel-bar-container'>
+          <div className='dashboard-user-conversion-funnel-content-container'>
+            <h3 className='dashboard-user-conversion-funnel-title'>
+              Trial Started
+            </h3>
+            <div className='dashboard-user-conversion-funnel-users-percentage-container'>
+              <p className='dashboard-user-conversion-funnel-users'>
+                428 users
+              </p>
+              <p className='dashboard-user-conversion-funnel-percentage'>15%</p>
+            </div>
+          </div>
+          <div className='dashboard-user-conversion-funnel-bar grey'>
+            <div className='dashboard-user-conversion-funnel-child-bar purple'></div>
+          </div>
+        </div>
+        <div className='dashboard-user-conversion-funnel-bar-container'>
+          <div className='dashboard-user-conversion-funnel-content-container'>
+            <h3 className='dashboard-user-conversion-funnel-title'>
+              Paid Subscribers
+            </h3>
+            <div className='dashboard-user-conversion-funnel-users-percentage-container'>
+              <p className='dashboard-user-conversion-funnel-users'>
+                342 users
+              </p>
+              <p className='dashboard-user-conversion-funnel-percentage'>12%</p>
+            </div>
+          </div>
+          <div className='dashboard-user-conversion-funnel-bar grey'>
+            <div className='dashboard-user-conversion-funnel-child-bar yellow'></div>
+          </div>
+        </div>
+      </div>
+      <div className='dashboard-area-activity-grid-container'>
+        <AreaCard />
+        <ActivityCard />
       </div>
       <div className='dashboard-system-performance-container'>
         <div className='dashboard-system-performance-heading-container'>

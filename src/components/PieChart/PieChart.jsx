@@ -3,24 +3,29 @@ import { Pie } from 'react-chartjs-2';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-const data = {
-  labels: ['Full-time Jobs', 'Freelance Gigs', 'Internships', 'Part-time Jobs'],
+const opportunityData = {
+  labels: [
+    'Full-time Jobs',
+    'Tutor Sessions',
+    'Courses',
+    'Freelance Gigs',
+    'Internships',
+  ],
   datasets: [
     {
-      data: [53, 14, 19, 14],
-      backgroundColor: ['#ffc300', '#d3d3d3', '#6f6f6f', '#023047'],
-      borderColor: '#fff',
+      data: [650, 890, 234, 178, 287],
+      backgroundColor: ['#FACC15', '#06B6D4', '#22C55E', '#8B5CF6', '#9CA3AF'],
+      borderColor: '#FFFFFF',
       borderWidth: 1,
     },
   ],
 };
 
-const options = {
+const pieOptions = {
   responsive: true,
-  cutout: '55%',
   plugins: {
     legend: {
-      position: 'bottom',
+      display: false,
     },
   },
 };
@@ -28,9 +33,10 @@ const options = {
 const PieChart = () => {
   return (
     <div className='chart-container'>
-      <h2 className='chart-heading'>Job Type Distribution</h2>
-      <div className='chart-content-container child'>
-        <Pie options={options} data={data} />
+      <h2 className='chart-heading'>Opportunity Distribution</h2>
+      <p className='chart-text'>All platform offerings</p>
+      <div style={{ width: '430px', height: '300px' }}>
+        <Pie options={pieOptions} data={opportunityData} />
       </div>
     </div>
   );

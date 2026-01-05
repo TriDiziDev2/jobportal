@@ -11,13 +11,15 @@
 }
 
 .chart-heading {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 28px;
-  color: #f6f6f6;
+  color: #ffc300;
 }
 
-.chart-content-container {
-  width: 561px;
-  height: 300px;
+.chart-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
 }
