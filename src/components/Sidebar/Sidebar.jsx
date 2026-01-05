@@ -10,6 +10,8 @@ import { BsPersonPlus } from 'react-icons/bs';
 import { LuDollarSign } from 'react-icons/lu';
 import { AiOutlineBarChart } from 'react-icons/ai';
 import { RiHeadphoneLine } from 'react-icons/ri';
+import { LuBuilding } from 'react-icons/lu';
+
 import LinkCard from '../LinkCard/LinkCard';
 
 const linksData = [
@@ -81,7 +83,7 @@ const linksData = [
   },
   {
     id: 12,
-    icon: <RiHeadphoneLine />,
+    icon: <LuBuilding />,
     title: 'Institutes',
     link: '/institutes',
   },
@@ -99,11 +101,11 @@ const Sidebar = () => {
           <p className='sidebar-logo-caption'>Super Admin</p>
         </div>
       </div>
-      <ul className='sidebar-links-container'>
+      <div className='sidebar-links-container'>
         {linksData.map((link) => (
           <LinkCard key={link.id} {...link} />
         ))}
-      </ul>
+      </div>
     </div>
   );
 };

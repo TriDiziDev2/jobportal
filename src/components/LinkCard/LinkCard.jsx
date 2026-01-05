@@ -3,12 +3,12 @@ import './LinkCard.css';
 
 const LinkCard = ({ icon, title, link }) => {
   return (
-    <NavLink to={link}>
-      <li className='linkcard-container'>
+    <div className='linkcard-container'>
+      <NavLink to={link}>
         <span className='linkcard-icon'>{icon}</span>
         <span className='linkcard-title'>{title}</span>
-      </li>
-    </NavLink>
+      </NavLink>
+    </div>
   );
 };
 
