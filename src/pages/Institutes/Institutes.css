@@ -1,0 +1,158 @@
+.instituteheading{
+    color: #FFC300;
+    font-size: 40px;
+}
+
+.institutedesc{
+    font-size: 16px;
+    color: #d3d3d3;
+}
+
+.institutestats{
+    height: 110px;
+    width: auto;
+    justify-content: space-between;
+    display: flex;
+    gap: 12px;
+
+}
+
+.totalinstitutes{
+    height: 110px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #6F6F6F;
+    background-color: #023047;
+}
+
+.institutestathead{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalinstitutes .label {
+    font-size: 14px;
+    color: #d3d3d3;
+}
+
+.totalinstitutes .count {
+    font-size: 28px;
+    color: #FFC300;
+}
+
+.institutefilters{
+    height: 120px;
+    width: auto;
+    background-color: #023047;
+    border-radius: 10px;
+    border: 1px solid #6F6F6F;
+    padding: 24px;
+}
+
+.instutefilterssub{
+    height: 65px;
+    padding: 12px;
+    color: #d3d3d3;
+    display: flex;
+}
+
+.filterstext{
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.filtertag1{
+    height: 35px;
+    width: auto;
+    color: #023047;
+    background-color: #FFC300;
+    border-radius: 8px;
+    font-size: 16px;
+    border-color: none;
+    margin: 4px 10px 0 15px;
+    padding: 8px;
+}
+
+.filtertag2{
+    height: 35px;
+    width: auto;
+    color: #FFC300;
+    background: linear-gradient(
+    180deg,
+    #0f4c68,
+    #073347
+  );
+    background-color: #6F6F6F;
+    border-radius: 8px;
+    font-size: 16px;
+    border-color: none;
+    margin: 4px 10px 0 15px;
+    padding: 8px;
+}
+
+.filtersearchbar {
+    border-radius: 10px;
+    border: 1px solid #6F6F6F;
+    width: 450px;
+    height: 42px;
+    padding: 10px;
+    color: #f6f6f6;
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 100px;
+}
+
+.institutename{
+    font-size: 20px;
+    color: #f6f6f6;
+    font-weight: 300px;
+    display: flex;
+    gap: 10px;
+}
+
+.instituteicon{
+    height: 36px;
+    width: 36px;
+    background-color: #FFC300;
+    border-radius: 5px;
+    border-color: none;
+    margin-left: 218px;
+}
+
+.skillset{
+    height: 24px;
+    margin-top: 20px;
+}
+
+.skilltag{
+    height: 25px;
+    width: auto;
+    color: #FFC300;
+    background: linear-gradient(
+    180deg,
+    #0f4c68,
+    #073347
+  );
+    background-color: #6F6F6F;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 4px;
+    border-color: none;
+    padding: 4px;
+}
+
+.borderline{
+    height: 2px;
+    background-color: #6F6F6F;
+    margin-top: 28px;
+    width: auto;
+}
+
+.bottomstats{
+    height: 34px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}

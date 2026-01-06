@@ -1,0 +1,23 @@
+.coursesfilterssub{
+    height: 65px;
+    padding: 12px;
+    color: #d3d3d3;
+    display: flex;
+}
+
+.coursefiltersearchbar {
+    border-radius: 10px;
+    border: 1px solid #6F6F6F;
+    width: 600px;
+    height: 42px;
+    padding: 10px;
+    color: #f6f6f6;
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 100px;
+}
+
+.Pricetag{
+    font-size: 26px;
+    color: #FFC300;
+}

@@ -1,5 +1,5 @@
 .dashboard-container {
-  min-height: 100vh;
+  min-height: 900vh;
   background: linear-gradient(180deg, #023047 0%, #012030 50%, #011520 100%);
   padding: 24px;
   display: flex;
@@ -29,307 +29,43 @@
   gap: 24px;
 }
 
-.dashboard-platform-sections-container {
-  background: radial-gradient(
-    104.65% 339.34% at 0% 0%,
-    rgba(255, 195, 0, 0.08) 0%,
-    #023047 100%
-  );
-  border: 0.8px solid #6f6f6f;
-  padding: 24.8px;
+.dashboard-overview-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.dashboard-actions-container {
+  background: #023047;
+  border: 1px solid #6f6f6f;
   border-radius: 10px;
+  padding: 25px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
+  cursor: pointer;
 }
 
-.dashboard-platform-section-heading {
-  font-size: 24px;
+.dashboard-actions-heading {
+  font-size: 18px;
   font-weight: 700;
-  line-height: 32px;
-  color: #ffc300;
+  line-height: 28px;
+  color: #f6f6f6;
 }
 
-.dashboard-platform-section-text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #d3d3d3;
-}
-
-.dashboard-platform-section-grid-container {
+.dashboard-actions-grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+  gap: 16px;
 }
 
-.revenue-section-grid-container {
+.dashboard-company-activity-health-grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 
 .dashboard-charts-grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-}
-
-.dashboard-subscription-card-container {
-  background: radial-gradient(
-    52.93% 152.35% at 50% 50%,
-    rgba(255, 195, 0, 0.5) 0%,
-    #023047 100%
-  );
-  border: 0.8px solid #6f6f6f;
-  padding: 24.8px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.dashboard-subscription-heading-container {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.dashboard-subscription-heading {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 32px;
-  color: #ffc300;
-}
-
-.dashboard-subscription-text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #d3d3d3;
-}
-
-.dashboard-subscription-grid-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 24px;
-}
-
-.dashboard-notification-card-container {
-  background: radial-gradient(
-    114.88% 203.15% at 100% 0%,
-    rgba(139, 92, 246, 0.3) 0%,
-    #023047 100%
-  );
-  border: 0.8px solid #6f6f6f;
-  padding: 24.8px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.dashboard-notification-content-icon-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.dashboard-notification-content-container {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.dashboard-notification-heading {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 32px;
-  color: #ffc300;
-}
-
-.dashboard-notification-text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #d3d3d3;
-}
-
-.dashboard-notification-icon-container {
-  background: #8b5cf6;
-  box-shadow: 0px 0px 30px 0px #8b5cf666;
-  height: 56px;
-  width: 56px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 28px;
-  color: #fff;
-  cursor: pointer;
-}
-
-.dashboard-notification-grid-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
-}
-
-.dashboard-notification-upgarde-container {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.dashboard-system-performance-container {
-  background: #023047;
-  border: 0.8px solid #6f6f6f;
-  padding: 24.8px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.dashboard-system-performance-heading-container {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.dashboard-system-performance-heading {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 32px;
-  color: #ffc300;
-}
-
-.dashboard-system-performance-text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #d3d3d3;
-}
-
-.dashboard-system-performance-grid-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
-}
-
-.dashboard-footer-grid-container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 24px;
-}
-
-.dashboard-user-conversion-funnel-container {
-  background: #023047;
-  border: 0.8px solid #6f6f6f;
-  padding: 24.8px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.dashboard-user-conversion-funnel-heading-container {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.dashboard-user-conversion-funnel-heading {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 32px;
-  color: #ffc300;
-}
-
-.dashboard-user-conversion-funnel-text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #d3d3d3;
-}
-
-.dashboard-user-conversion-funnel-bar-container {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.dashboard-user-conversion-funnel-content-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.dashboard-user-conversion-funnel-title {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  color: #f6f6f6;
-}
-
-.dashboard-user-conversion-funnel-users-percentage-container {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.dashboard-user-conversion-funnel-users {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #d3d3d3;
-}
-
-.dashboard-user-conversion-funnel-percentage {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  color: #ffc300;
-}
-
-.dashboard-user-conversion-funnel-bar {
-  height: 16px;
-  border-radius: 28px;
-  box-shadow: 0px 0px 10px 0px #d3d3d360;
-}
-
-.white {
-  background: #d3d3d3;
-}
-
-.grey {
-  background: #6f6f6f;
-}
-
-.dashboard-user-conversion-funnel-child-bar {
-  height: 16px;
-  box-shadow: 0px 0px 10px 0px #02304760;
-  border-radius: 28px;
-}
-
-.dark-blue {
-  width: 30%;
-  background: #023047;
-}
-
-.purple {
-  background: #8b5cf6;
-  width: 15%;
-  box-shadow: 0px 0px 10px 0px #8b5cf660;
-}
-
-.yellow {
-  background: #ffc300;
-  width: 12%;
-  box-shadow: 0px 0px 10px 0px #ffc30060;
-}
-
-.dashboard-area-activity-grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;

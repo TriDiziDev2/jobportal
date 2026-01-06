@@ -1,0 +1,53 @@
+.tutorsearch{
+    height: 90px;
+    background-color: #023047;
+    border-radius: 10px;
+    border: 1px solid #6F6F6F;
+}
+
+.tutorsearchbar {
+    height: 45px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+.tutorrow{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.tutorinfo{
+    height: 220px;
+    background-color: #023047;
+    border-radius: 10px;
+    border: 1px solid #6F6F6F;
+    width: 550px;
+    padding: 24px;
+}
+
+.tutoricon{
+    height: 64px;
+    width: 64px;
+    border-radius: 50px;
+    border-color: none;
+    background-color: #FFC300;
+    box-shadow:
+  0 0 12px rgba(255, 195, 0, 0.35),
+  0 0 30px rgba(255, 195, 0, 0.18); 
+}
+
+.tutorborderline{
+    height: 2px;
+    background-color: #6F6F6F;
+    margin-top: 10px;
+    width: auto;
+}
+
+.availabletag{
+    color:#22C55E;
+    font-size: 16px;
+}
