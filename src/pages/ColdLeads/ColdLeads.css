@@ -1,0 +1,87 @@
+.import{
+    height: 40px;
+    border-radius: 10px;
+    background-color: #023047;
+    border: 1px solid #6F6F6F;
+    color: #f6f6f6;
+    font-size: 14px;
+    width: 165px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.coldleadsstats{
+    height: 174px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.leadstats{
+    height: 174px;
+    width: 210px;
+    border-radius: 10px;
+    background-color: #023047;
+    border: 1px solid #6F6F6F;
+    color: #f6f6f6;
+    padding: 24px;
+}
+
+.leadstats .label {
+    font-size: 12px;
+    color: #a7a3a3;
+}
+
+.leadstats .count {
+    font-size: 32px;
+    color: #f6f6f6;
+}
+
+.leadsearch{
+    width: auto;
+    height: 76px;
+    border-radius: 10px;
+    background-color: #023047;
+    border: 1px solid #6F6F6F;
+    color: #f6f6f6;
+}
+
+.leadsearchbar{
+    height: 42px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.searchleads{
+    width: 920px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #023047;
+    border: 1px solid #6F6F6F;
+    color: #f6f6f6;
+    padding: 12px;
+}
+
+.assignoption{
+    background-color: #22C55E;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    border-color: none;
+    margin-left: 10px;
+}
+
+.username1{
+    font-size: 16px;
+    color: #f6f6f6;
+    font-weight: 400px;
+}
+
+.userdetail1{
+    font-size: 12px;
+    color: #a7a3a3;
+}

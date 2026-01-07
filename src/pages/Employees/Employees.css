@@ -1,0 +1,94 @@
+.employeestats{
+    height: 150px;
+    width: 265px;
+    border-radius: 10px;
+    background-color: #023047;
+    border: 1px solid #6F6F6F;
+    color: #f6f6f6;
+    padding: 24px;
+}
+
+.employeestats .label{
+    font-size: 16px;
+    color: #d3d3d3;
+}
+
+.employeestats .count{
+    font-size: 30px;
+    color: #f6f6f6;
+}
+
+.employeesearchbar{
+    height: 42px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.employeerow{
+    height: 275px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.employeeinfo{
+    height: 276px;
+    width: 360px;
+    border-radius: 10px;
+    background-color: #023047;
+    border: 1px solid #6F6F6F;
+    color: #f6f6f6;
+    padding: 24px;
+    gap: 10px;
+}
+
+
+.employeetitle{
+    height: 48px;
+    width: auto;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.employeeicon{
+    height: 48px;
+    width: 48px;
+    border-radius: 25px;
+    background-color: #FFC300;
+    border-color: none;
+}
+
+.employeename{
+    color: #f6f6f6;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.employeecode{
+    font-size: 14px;
+    color: #6F6F6F;
+}
+
+.employeedetail{
+    font-size: 14px;
+    color: #d3d3d3;
+    margin-bottom: 20px;
+}
+
+.employeeinfo ul{
+    list-style: none;  
+}
+
+.employeeinfo li{
+    font-size: 14px;
+    color: #d3d3d3;
+    margin-bottom: 10px;
+}
+
+.joineddate{
+    font-size: 16px;
+    color: #FFC300;
+}

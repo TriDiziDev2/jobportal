@@ -11,15 +11,16 @@ const UserManagement = () => {
        </div>
       </div>
 
-      <div className='usercategories'>
-        <div className='allusers'>All Users (60) </div>
-        <div>Candidates (7)</div>
-        <div>Employers (5) </div>
-        <div>Tutors (12) </div>
-        <div>Personal Trainers (12) </div>
-        <div>institutes (12) </div>
-        <div>Freelancers (12) </div>
-      </div>
+        <ui className='usercategories'>
+          <li className='allusers'>All Users (60) </li>
+          <li>Candidates (7)</li>
+          <li>Employers (5)</li>
+          <li>Tutors (12)</li>
+          <li>Personal Trainers (12)</li>
+          <li>Institutes (12)</li>
+          <li>Freelancers (12)</li>
+        </ui>
+        <span className='thinborder'></span>
       <div className='usersearch'>
         <div className='usersearchbar'>
         <span className='searchjobs'>Search Users....</span>

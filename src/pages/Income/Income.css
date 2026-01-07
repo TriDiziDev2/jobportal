@@ -1,0 +1,225 @@
+.incomeheader{
+    height: 64px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exporttag{
+    background-color: #023047;
+    border-radius: 10px;
+    border: 1px solid #6F6F6F;
+    color: #f6f6f6;
+    width: 150px;
+    height: 40px;
+}
+
+.thinborder{
+    height: 1px;
+    background-color: #6F6F6F;
+    width: auto;
+}
+
+.timeliencat{
+    height: 40px;
+    width: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.incomestats{
+    height: 175px;
+    width: auto;
+    display: flex;
+    gap: 25px;
+}
+
+.incomestat{
+    height: 175px;
+    width: 260px;
+    border-radius: 10px;
+    background-color: #023047;
+    border: 1px solid #6F6F6F;
+    padding: 24px;
+}
+
+.incomestat .label{
+    font-size: 16px;
+    color: #d3d3d3;
+}
+
+.incomestat .count{
+    font-size: 30px;
+    color: #f6f6f6;
+}
+
+.incomestat .text{
+    font-size: 14px;
+    color: #FFC300;
+}
+
+.revenuestats{
+    width: auto;
+    height: 456px;
+    border-radius: 10px;
+    background-color: #023047;
+    border: 1px solid #6F6F6F;
+    padding: 24px;
+}
+
+.revenueheader{
+    height: 32px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.revenueheader .text{
+    font-size: 20px;
+    color: #FFC300;
+}
+
+.revenueheader .label{
+    font-size: 16px;
+    color: #d3d3d3;
+}
+
+.revenueperformance{
+    height: 638px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.revenuedistribution{
+    height: 638px;
+    width: 545px;
+    border-radius: 10px;
+    background-color: #023047;
+    border: 1px solid #6F6F6F;
+    padding: 24px;
+}
+
+.revenuedistribution .text{
+    font-size: 20px;
+    color: #FFC300;
+}
+
+.revenuedistribution .graph{
+    height: 300px;
+    width: 430px;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 10px;
+    background-color: #023047;
+    border: 1px solid #6F6F6F;
+}
+
+.revenuedistribution .values{
+    height: 215px;
+    width: 430px;
+    margin-left: 26px;
+    margin-top: 25px;
+}
+
+.revenuedistribution .value{
+    font-size: 16px;
+    color: #d3d3d3;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.scrollbox{
+    height: 525px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none; 
+}
+
+.scrollbox .complanyplans{
+    height: auto;
+    width: auto;
+    padding: 20px;
+    color: #FFC300;
+    font-size: 20px;
+}
+
+.companyplanstats{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.companyplanstats .plantitle{
+    font-size: 14px;
+    color: #f6f6f6;
+}
+
+.companyplanstats .count{
+    font-size: 12px;
+    color: #6F6F6F;
+}
+
+.companyplanstats .price{
+    font-size: 16px;
+    color: #FFC300;
+}
+
+.pricevalues{
+    text-align: right;
+}
+
+.transactiontable .mainTitle{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFC300;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.transactiontable .selectcat{
+    background-color: #FFC300;
+    color: #023047;
+    border-radius: 10px;
+    width: auto;
+    padding: 3px 8px 3px 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 25px;
+    border: 1px solid #FFC300;
+}
+
+.transactiontable .tablecat{
+    background-color: #023047;
+    border-radius: 10px;
+    padding: 3px 8px 3px 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: #d3d3d3;
+    height: 25px;
+    border: 1px solid #6F6F6F;
+}
+
+.transactiontable{
+    height: 1100px;
+    background-color: #023047;
+    width: auto;
+    border-radius: 10px;
+    border: 1px solid #6F6F6F;
+    padding: 12px;
+    color: #FFC300;
+}
+
+.transactiontable .completetag{
+    background-color: #FFC300;
+    color: #023047;
+    border-radius: 10px;
+    font-size: 12px;
+    width: auto;
+    padding: 3px 4px 3px 4px;
+    height: 24px;
+    border: 1px solid #FFC300;
+}

@@ -1,10 +1,10 @@
 .usercategories{
-    height: 40px;
     width: auto;
     font-size: 16px;
     color: #f6f6f6;
     display: flex;
     gap: 55px;
+    list-style: none;
 }
 
 .allusers{
