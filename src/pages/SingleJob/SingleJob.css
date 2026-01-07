@@ -1,0 +1,21 @@
+.single-job-container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg, #023047 0%, #012030 50%, #011520 100%);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.single-job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.single-job-heading-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}

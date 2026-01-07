@@ -17,14 +17,19 @@ import Institutes from './pages/Institutes/Institutes';
 import Courses from './pages/Courses/Courses';
 import Tutors from './pages/Tutors/Tutors';
 import Marketing from './pages/Marketing/Marketing';
+import SingleJob from './pages/SingleJob/SingleJob';
+import JobsManagement from './pages/JobsManagement/JobsManagement';
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path='/' element={<Landing />}>
+        <Route path='/' element={<Landing />}>
           <Route index element={<Dashboard />} />
-          <Route path='job-management' element={<JobManagement />} />
+          <Route path='job-management' element={<JobsManagement />}>
+            <Route index element={<JobManagement />} />
+            <Route path=':id' element={<SingleJob />} />
+          </Route>
           <Route path='internship-hub' element={<InternshipHub />} />
           <Route path='freelance-gigs' element={<FreelanceGigs />} />
           <Route path='companies' element={<Companies />} />
