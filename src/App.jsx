@@ -19,6 +19,12 @@ import Tutors from './pages/Tutors/Tutors';
 import Marketing from './pages/Marketing/Marketing';
 import SingleJob from './pages/SingleJob/SingleJob';
 import JobsManagement from './pages/JobsManagement/JobsManagement';
+import InternshipPage from './pages/InternshipPage/InternshipPage';
+import SingleInternship from './pages/SingleInternship/SingleInternship';
+import Freelance from './pages/Freelance/Freelance';
+import SingleFreelanceGig from './pages/SingleFreelanceGig/SingleFreelanceGig';
+import CompaniesPage from './pages/CompaniesPage/CompaniesPage';
+import SingleCompany from './pages/SingleCompany/SingleCompany';
 
 export default function App() {
   return (
@@ -30,9 +36,18 @@ export default function App() {
             <Route index element={<JobManagement />} />
             <Route path=':id' element={<SingleJob />} />
           </Route>
-          <Route path='internship-hub' element={<InternshipHub />} />
-          <Route path='freelance-gigs' element={<FreelanceGigs />} />
-          <Route path='companies' element={<Companies />} />
+          <Route path='internship-hub' element={<InternshipPage />}>
+            <Route index element={<InternshipHub />} />
+            <Route path=':id' element={<SingleInternship />} />
+          </Route>
+          <Route path='freelance-gigs' element={<Freelance />}>
+            <Route index element={<FreelanceGigs />} />
+            <Route path=':id' element={<SingleFreelanceGig />} />
+          </Route>
+          <Route path='companies' element={<CompaniesPage />}>
+            <Route index element={<Companies />} />
+            <Route path=':id' element={<SingleCompany />} />
+          </Route>
           <Route path='user-management' element={<UserManagement />} />
           <Route path='cold-leads' element={<ColdLeads />} />
           <Route path='employees' element={<Employees />} />

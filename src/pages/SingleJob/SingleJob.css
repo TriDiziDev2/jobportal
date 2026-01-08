@@ -1,6 +1,6 @@
 .single-job-container {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(180deg, #023047 0%, #012030 50%, #011520 100%);
   padding: 24px;
   display: flex;
@@ -18,4 +18,218 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
+}
+
+.single-job-heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.8px;
+  color: #ffc300;
+}
+
+.single-job-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.single-job-active-btn {
+  padding: 6px 14px;
+  background: #ffc300;
+  border: none;
+  border-radius: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #023047;
+  cursor: pointer;
+}
+
+.single-job-info-container {
+  padding: 25px;
+  border-radius: 10px;
+  background: #023047;
+  border: 1px solid #6f6f6f;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.single-job-info-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.single-job-requirements-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.single-job-description {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #ffc300;
+}
+
+.single-job-description-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.single-job-requirements {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #ffc300;
+}
+
+.single-job-requirements-heading {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #ffc300;
+}
+
+.single-job-requirements ul {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.single-job-requirements ul li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.single-jobs-benifits-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.single-job-benefits {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.single-job-benefits span {
+  padding-left: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #f6f6f6;
+}
+
+.single-job-applications-container {
+  background: #023047;
+  border: 1px solid #6f6f6f;
+  border-radius: 10px;
+}
+
+.single-job-applicants-header {
+  padding: 24px;
+  border-bottom: 1px solid #6f6f6f;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.single-job-applicants-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.applicants-heading {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #ffc300;
+}
+
+.applicants-export-btn {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #ffc300;
+  border: none;
+  color: #203047;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.single-job-applicants-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.applicants-item-container {
+  background: #023047;
+  border: 1px solid #6f6f6f;
+  border-radius: 10px;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.applicant-item-title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.applicant-item-number {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.single-job-applicants-btn-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.single-job-applicant-btn {
+  background-color: #6f6f6f;
+  border-radius: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #f6f6f6;
+  border: none;
+}
+
+.active {
+  background-color: #023047;
+  border: none;
+}
+
+.single-job-applications-flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px;
 }

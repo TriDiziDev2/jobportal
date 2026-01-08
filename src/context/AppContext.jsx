@@ -12,6 +12,9 @@ export const AppContextProvider = ({ children }) => {
   const [isFreelanceModalOpen, setIsFreelanceModalOpen] = useState(false);
   const [isFreelanceFilterModalOpen, setIsFreelanceFilterModalOpen] =
     useState(false);
+  const [isCompanyModalOpen, setIsCompanyModalOpen] = useState(false);
+  const [isCompanyFiltersModalOpen, setIsCompanyFiltersModalOpen] =
+    useState(false);
 
   return (
     <AppContext.Provider
@@ -30,6 +33,10 @@ export const AppContextProvider = ({ children }) => {
         setIsFreelanceModalOpen,
         isFreelanceFilterModalOpen,
         setIsFreelanceFilterModalOpen,
+        isCompanyModalOpen,
+        setIsCompanyModalOpen,
+        isCompanyFiltersModalOpen,
+        setIsCompanyFiltersModalOpen,
       }}
     >
       {children}

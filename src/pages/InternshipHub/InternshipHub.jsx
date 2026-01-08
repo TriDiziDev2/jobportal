@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import InternshipFilterModal from '../../components/InternshipFilterModal/InternshipFilterModal';
 import InternshipModal from '../../components/InternshipModal/InternshipModal';
 import useAppContext from '../../context/AppContext';
@@ -92,144 +93,151 @@ const InternshipHub = () => {
           </button>
         </div>
       </div>
+      <Link to='software-engineer-intern'>
+        <div className='job1'>
+          <div className='jobicon'></div>
+          <div className='jobinfo'>
+            <div className='titlecard'>
+              <span className='jobtitle'>Software Engineering Intern</span>
+              <span className='protag'>Pro</span>
+            </div>
+            <div className='jobdetails'>
+              New York, NY 3 Months $25/hr Starts: 2025-01-15
+              <span className='depttag'>Technology</span>
+              <span className='protag'>5 spots</span>
+            </div>
+            <div className='applicationstag'>
+              112 Applications • Posted 2024-12-01
+            </div>
+          </div>
+          <div className='jobactions'>
+            <span className='activetag'>Active</span>
+            <div className='editoption'></div>
+            <div className='deleteoption'></div>{' '}
+          </div>
+        </div>
+      </Link>
+      <Link to='summer-marketing-intern'>
+        <div className='job1'>
+          <div className='jobicon'></div>
+          <div className='jobinfo'>
+            <div className='titlecard'>
+              <span className='jobtitle'>Summer Marketing Intern</span>
+              <span className='protag'>Pro</span>
+            </div>
+            <div className='jobdetails'>
+              Remote 3 Months $20/hr Starts: 2025-06-01
+              <span className='depttag'>Marketing</span>
+              <span className='protag'>3 spots</span>
+            </div>
+            <div className='applicationstag'>
+              89 Applications • Posted 2024-12-04
+            </div>
+          </div>
+          <div className='jobactions'>
+            <span className='activetag'>Active</span>
+            <div className='editoption'></div>
+            <div className='deleteoption'></div>{' '}
+          </div>
+        </div>
+      </Link>
+      <Link to='ux-design-intern'>
+        <div className='job1'>
+          <div className='jobicon'></div>
+          <div className='jobinfo'>
+            <div className='titlecard'>
+              <span className='jobtitle'>UX Design Intern</span>
+              <span className='protag'>Free</span>
+            </div>
+            <div className='jobdetails'>
+              Austin, TX 6 Months $18/hr Starts: 2025-02-01
+              <span className='depttag'>Design</span>
+              <span className='protag'>2 spots</span>
+            </div>
+            <div className='applicationstag'>
+              67 Applications • Posted 2024-12-05
+            </div>
+          </div>
+          <div className='jobactions'>
+            <span className='activetag'>Active</span>
+            <div className='editoption'></div>
+            <div className='deleteoption'></div>{' '}
+          </div>
+        </div>
+      </Link>
+      <Link to='data-science-intern'>
+        <div className='job1'>
+          <div className='jobicon'></div>
+          <div className='jobinfo'>
+            <div className='titlecard'>
+              <span className='jobtitle'>Data Science Intern</span>
+              <span className='protag'>Free</span>
+            </div>
+            <div className='jobdetails'>
+              Bostan, MA 4 Months $30/hr Starts: 2025-01-20
+              <span className='depttag'>Technology</span>
+              <span className='protag'>4 spots</span>
+            </div>
+            <div className='applicationstag'>
+              145 Applications • Posted 2024-11-28
+            </div>
+          </div>
+          <div className='jobactions'>
+            <span className='activetag'>Active</span>
+            <div className='editoption'></div>
+            <div className='deleteoption'></div>{' '}
+          </div>
+        </div>
+      </Link>
+      <Link to='product-design-intern'>
+        <div className='job1'>
+          <div className='jobicon'></div>
+          <div className='jobinfo'>
+            <div className='titlecard'>
+              <span className='jobtitle'>Product Design Intern</span>
+              <span className='protag'>Free</span>
+            </div>
+            <div className='jobdetails'>
+              SanFrancisco, CA 3 Months $22/hr Starts: 2025-01-10
+              <span className='depttag'>Design</span>
+              <span className='protag'>2 spots</span>
+            </div>
+            <div className='applicationstag'>
+              78 Applications • Posted 2024-12-03
+            </div>
+          </div>
+          <div className='jobactions'>
+            <span className='activetag'>Active</span>
+            <div className='editoption'></div>
+            <div className='deleteoption'></div>{' '}
+          </div>
+        </div>
+      </Link>
+      <Link to='finance-intern'>
+        <div className='job1'>
+          <div className='jobicon'></div>
+          <div className='jobinfo'>
+            <div className='titlecard'>
+              <span className='jobtitle'>Finance Intern</span>
+              <span className='protag'>Free</span>
+            </div>
+            <div className='jobdetails'>
+              Chicago, IL 6 Months $28/hr Starts: 2025-02-15
+              <span className='depttag'>Finance</span>
+              <span className='protag'>6 spots</span>
+            </div>
+            <div className='applicationstag'>
+              134 Applications • Posted 2024-12-02
+            </div>
+          </div>
+          <div className='jobactions'>
+            <span className='activetag'>Active</span>
+            <div className='editoption'></div>
+            <div className='deleteoption'></div>{' '}
+          </div>
+        </div>
+      </Link>
 
-      <div className='job1'>
-        <div className='jobicon'></div>
-        <div className='jobinfo'>
-          <div className='titlecard'>
-            <span className='jobtitle'>Software Engineering Intern</span>
-            <span className='protag'>Pro</span>
-          </div>
-          <div className='jobdetails'>
-            New York, NY 3 Months $25/hr Starts: 2025-01-15
-            <span className='depttag'>Technology</span>
-            <span className='protag'>5 spots</span>
-          </div>
-          <div className='applicationstag'>
-            112 Applications • Posted 2024-12-01
-          </div>
-        </div>
-        <div className='jobactions'>
-          <span className='activetag'>Active</span>
-          <div className='editoption'></div>
-          <div className='deleteoption'></div>{' '}
-        </div>
-      </div>
-
-      <div className='job1'>
-        <div className='jobicon'></div>
-        <div className='jobinfo'>
-          <div className='titlecard'>
-            <span className='jobtitle'>Summer Marketing Intern</span>
-            <span className='protag'>Pro</span>
-          </div>
-          <div className='jobdetails'>
-            Remote 3 Months $20/hr Starts: 2025-06-01
-            <span className='depttag'>Marketing</span>
-            <span className='protag'>3 spots</span>
-          </div>
-          <div className='applicationstag'>
-            89 Applications • Posted 2024-12-04
-          </div>
-        </div>
-        <div className='jobactions'>
-          <span className='activetag'>Active</span>
-          <div className='editoption'></div>
-          <div className='deleteoption'></div>{' '}
-        </div>
-      </div>
-
-      <div className='job1'>
-        <div className='jobicon'></div>
-        <div className='jobinfo'>
-          <div className='titlecard'>
-            <span className='jobtitle'>UX Design Intern</span>
-            <span className='protag'>Free</span>
-          </div>
-          <div className='jobdetails'>
-            Austin, TX 6 Months $18/hr Starts: 2025-02-01
-            <span className='depttag'>Design</span>
-            <span className='protag'>2 spots</span>
-          </div>
-          <div className='applicationstag'>
-            67 Applications • Posted 2024-12-05
-          </div>
-        </div>
-        <div className='jobactions'>
-          <span className='activetag'>Active</span>
-          <div className='editoption'></div>
-          <div className='deleteoption'></div>{' '}
-        </div>
-      </div>
-
-      <div className='job1'>
-        <div className='jobicon'></div>
-        <div className='jobinfo'>
-          <div className='titlecard'>
-            <span className='jobtitle'>Data Science Intern</span>
-            <span className='protag'>Free</span>
-          </div>
-          <div className='jobdetails'>
-            Bostan, MA 4 Months $30/hr Starts: 2025-01-20
-            <span className='depttag'>Technology</span>
-            <span className='protag'>4 spots</span>
-          </div>
-          <div className='applicationstag'>
-            145 Applications • Posted 2024-11-28
-          </div>
-        </div>
-        <div className='jobactions'>
-          <span className='activetag'>Active</span>
-          <div className='editoption'></div>
-          <div className='deleteoption'></div>{' '}
-        </div>
-      </div>
-
-      <div className='job1'>
-        <div className='jobicon'></div>
-        <div className='jobinfo'>
-          <div className='titlecard'>
-            <span className='jobtitle'>Product Design Intern</span>
-            <span className='protag'>Free</span>
-          </div>
-          <div className='jobdetails'>
-            SanFrancisco, CA 3 Months $22/hr Starts: 2025-01-10
-            <span className='depttag'>Design</span>
-            <span className='protag'>2 spots</span>
-          </div>
-          <div className='applicationstag'>
-            78 Applications • Posted 2024-12-03
-          </div>
-        </div>
-        <div className='jobactions'>
-          <span className='activetag'>Active</span>
-          <div className='editoption'></div>
-          <div className='deleteoption'></div>{' '}
-        </div>
-      </div>
-
-      <div className='job1'>
-        <div className='jobicon'></div>
-        <div className='jobinfo'>
-          <div className='titlecard'>
-            <span className='jobtitle'>Finance Intern</span>
-            <span className='protag'>Free</span>
-          </div>
-          <div className='jobdetails'>
-            Chicago, IL 6 Months $28/hr Starts: 2025-02-15
-            <span className='depttag'>Finance</span>
-            <span className='protag'>6 spots</span>
-          </div>
-          <div className='applicationstag'>
-            134 Applications • Posted 2024-12-02
-          </div>
-        </div>
-        <div className='jobactions'>
-          <span className='activetag'>Active</span>
-          <div className='editoption'></div>
-          <div className='deleteoption'></div>{' '}
-        </div>
-      </div>
       <InternshipModal
         isOpen={isInternshipModalOpen}
         onClose={() => setIsInternshipModalOpen(false)}

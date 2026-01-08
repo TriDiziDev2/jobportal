@@ -1,0 +1,33 @@
+.company-card-container {
+  background: #023047;
+  border: 1px solid #6f6f6f;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.company-card-icon-container {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.company-card-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.company-card-number {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #f6f6f6;
+}

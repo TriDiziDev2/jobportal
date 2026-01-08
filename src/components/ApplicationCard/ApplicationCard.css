@@ -1,0 +1,187 @@
+.application-card-container {
+  background: #023047;
+  border: 1px solid #6f6f6f;
+  padding: 17px;
+  border-radius: 10px;
+}
+
+.application-card-flex-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.application-card-icon-header-container {
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.application-icon-content-container {
+  display: flex;
+  gap: 16px;
+}
+
+.application-icon-container {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #203047;
+  background-color: #ffc300;
+  font-weight: 700;
+}
+
+.application-card-content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.application-card-name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #f6f6f6;
+}
+
+.application-card-education {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.application-card-star-type-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.application-card-star-icon {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.star-icon {
+  width: 16px;
+  height: 16px;
+  color: #ffc300;
+}
+
+.application-card-rating {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #f6f6f6;
+}
+
+.application-card-type-container {
+  padding: 4px 12px;
+  border-radius: 32px;
+  border: none;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.application-card-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.application-card-grid-item-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #d3d3d3;
+}
+
+.application-card-skills-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.skill-container {
+  padding: 4px 8px;
+  background: #6f6f6f;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #f6f6f6;
+  cursor: pointer;
+}
+
+.application-card-view-message-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.application-card-view-container {
+  background-color: #023047;
+  padding: 4px 6px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #f6f6f6;
+  cursor: pointer;
+}
+
+.application-card-hire-container {
+  background-color: #ffc300;
+  padding: 4px 8px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #023047;
+  cursor: pointer;
+}
+
+.application-card-reject-container {
+  background-color: #6f6f6f;
+  padding: 4px 8px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #f6f6f6;
+  cursor: pointer;
+}
+
+.application-card-message-container {
+  background-color: #023047;
+  padding: 4px 8px;
+  border-radius: 10px;
+  border: 1px solid #6f6f6f;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #d3d3d3;
+  cursor: pointer;
+}

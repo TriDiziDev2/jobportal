@@ -1,0 +1,124 @@
+.single-company-page-container {
+  background: linear-gradient(180deg, #023047 0%, #012030 50%, #011520 100%);
+  width: 100%;
+  height: 100vh;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.single-company-page-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.single-company-page-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.single-company-page-content-btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.single-company-page-icon-content-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.single-company-page-icon-container {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #ffc300 0%, #023047 100%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #f6f6f6;
+}
+
+.single-company-page-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.single-company-page-heading-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.single-company-page-heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #ffc300;
+}
+
+.company-circle-icon {
+  height: 24px;
+  width: 24px;
+  color: #ffc300;
+}
+
+.single-company-page-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.single-company-page-active-btn {
+  background: #ffc300;
+  padding: 8px 16px;
+  border-radius: 32px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #023047;
+  cursor: pointer;
+}
+
+.single-company-page-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.single-company-page-btn-container {
+  width: 100%;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #6f6f6f;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #f6f6f6;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.selected-btn {
+  border-bottom: 2px solid #ffc300;
+  color: #ffc300;
+}
