@@ -25,6 +25,9 @@ import Freelance from './pages/Freelance/Freelance';
 import SingleFreelanceGig from './pages/SingleFreelanceGig/SingleFreelanceGig';
 import CompaniesPage from './pages/CompaniesPage/CompaniesPage';
 import SingleCompany from './pages/SingleCompany/SingleCompany';
+import SingleInstitute from './pages/SingleInstitute/SingleInstitute';
+import InstitutesPage from './pages/InstitutesPage/InstitutesPage';
+import SingleTrainer from './pages/SingleTrainer/SingleTrainer';
 
 export default function App() {
   return (
@@ -54,7 +57,12 @@ export default function App() {
           <Route path='income' element={<Income />} />
           <Route path='reports' element={<Reports />} />
           <Route path='support' element={<Support />} />
-          <Route path='institutes' element={<Institutes />} />
+          <Route path='institutes' element={<InstitutesPage />}>
+            <Route index element={<Institutes />} />
+            <Route path=':institute' element={<SingleInstitute />} />
+            <Route path=':trainer' element={<SingleTrainer />} />
+          </Route>
+
           <Route path='courses' element={<Courses />} />
           <Route path='tutors' element={<Tutors />} />
           <Route path='marketing' element={<Marketing />} />

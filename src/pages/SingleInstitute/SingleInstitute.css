@@ -1,0 +1,206 @@
+.single-institute-container {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #023047 0%, #012030 50%, #011520 100%);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.single-institute-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.single-institute-header-icon-container {
+  width: 37.6px;
+  height: 37.6px;
+  border-radius: 10px;
+  background: #ffc3001a;
+  border: 0.8px solid #ffc300;
+  padding: 8.8px;
+  color: #ffc300;
+  cursor: pointer;
+}
+
+.left-arrow {
+  color: #ffc300;
+}
+
+.single-institute-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.single-institute-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #ffc300;
+}
+
+.single-institute-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.single-institute-grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+.single-institute-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.single-institute-academy-container {
+  background: #023047;
+  border: 0.8px solid #ffc300;
+  padding: 24.8px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.single-institute-academy-content-header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.single-institute-academy-title-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.single-institute-academy-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #f6f6f6;
+}
+
+.green {
+  background: #22c55e33;
+  padding: 4px 12px;
+  border-radius: 28px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #22c55e;
+  cursor: pointer;
+}
+
+.yellow {
+  background: #ffc30033;
+  padding: 4px 12px;
+  border-radius: 28px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #ffc300;
+  cursor: pointer;
+}
+
+.light-green {
+  background: #22c55e1a;
+  padding: 4px 12px;
+  border-radius: 28px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #22c55e;
+  cursor: pointer;
+}
+
+.single-institute-academy-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.single-institute-academy-icons-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.single-institute-star-icon-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.star-icon {
+  height: 20px;
+  width: 20px;
+  color: #ffc300;
+}
+
+.single-institute-rating-number {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #ffc300;
+}
+
+.single-institute-rating-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6f6f6f;
+}
+
+.single-institute-academy-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.single-institute-academy-grid-item-one-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.single-institute-grid-item-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.single-institute-grid-item-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #6f6f6f;
+}
+
+.single-institute-grid-item-icon-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.grid-item-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.single-institute-grid-item-icon-container span {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #f6f6f6;
+}

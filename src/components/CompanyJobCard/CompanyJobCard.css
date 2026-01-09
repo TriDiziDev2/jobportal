@@ -1,0 +1,74 @@
+.company-job-card-container {
+  width: 100%;
+  background: #023047;
+  border: 1px solid #6f6f6f;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.company-job-card-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.company-job-card-title-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.company-job-card-role {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #f6f6f6;
+}
+
+.company-job-card-title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.company-job-card-active-btn {
+  width: 56px;
+  height: 24px;
+  background-color: #ffc300;
+  color: #023047;
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  border-radius: 32px;
+  border: none;
+  cursor: pointer;
+}
+
+.company-job-card-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.company-job-card-icon-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #d3d3d3;
+  cursor: pointer;
+}
+
+.company-job-card-footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

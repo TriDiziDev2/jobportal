@@ -1,7 +1,7 @@
 .single-company-page-container {
   background: linear-gradient(180deg, #023047 0%, #012030 50%, #011520 100%);
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -101,7 +101,6 @@
 
 .single-company-page-btn-container {
   width: 100%;
-  padding-bottom: 10px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -116,6 +115,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  padding: 10px;
 }
 
 .selected-btn {

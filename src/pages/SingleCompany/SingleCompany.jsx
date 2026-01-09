@@ -71,7 +71,9 @@ const SingleCompany = () => {
             </div>
             <div className='single-company-page-content-container'>
               <div className='single-company-page-heading-container'>
-                <h3 className='single-company-page-heading'>Tech Corp</h3>
+                <h3 className='single-company-page-heading'>
+                  {title.join(' ')}
+                </h3>
                 <IoMdCheckmarkCircleOutline className='company-circle-icon' />
               </div>
               <p className='single-company-page-text'>Technology</p>
