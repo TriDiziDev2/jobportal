@@ -370,12 +370,14 @@ const Dashboard = () => {
         ))}
       </div>
       <div className='dashboard-platform-sections-container'>
-        <h2 className='dashboard-platform-section-heading'>
-          New Platform Sections
-        </h2>
-        <p className='dashboard-platform-section-text'>
-          Institutes, Courses & Tutors - Expanding our services
-        </p>
+        <div>
+          <h2 className='dashboard-platform-section-heading'>
+            New Platform Sections
+          </h2>
+          <p className='dashboard-platform-section-text'>
+            Institutes, Courses & Tutors - Expanding our services
+          </p>
+        </div>
         <div className='dashboard-platform-section-grid-container'>
           {dashboardData.map((item) => (
             <PlatformSectionCard key={item.id} {...item} />
@@ -482,7 +484,7 @@ const Dashboard = () => {
               <p className='dashboard-user-conversion-funnel-percentage'>30%</p>
             </div>
           </div>
-          <div className='dashboard-user-conversion-funnel-bar grey'>
+          <div className='dashboard-user-conversion-funnel-bar'>
             <div className='dashboard-user-conversion-funnel-child-bar dark-blue'></div>
           </div>
         </div>
@@ -498,7 +500,7 @@ const Dashboard = () => {
               <p className='dashboard-user-conversion-funnel-percentage'>15%</p>
             </div>
           </div>
-          <div className='dashboard-user-conversion-funnel-bar grey'>
+          <div className='dashboard-user-conversion-funnel-bar'>
             <div className='dashboard-user-conversion-funnel-child-bar purple'></div>
           </div>
         </div>
@@ -514,7 +516,7 @@ const Dashboard = () => {
               <p className='dashboard-user-conversion-funnel-percentage'>12%</p>
             </div>
           </div>
-          <div className='dashboard-user-conversion-funnel-bar grey'>
+          <div className='dashboard-user-conversion-funnel-bar'>
             <div className='dashboard-user-conversion-funnel-child-bar yellow'></div>
           </div>
         </div>

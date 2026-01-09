@@ -1,6 +1,6 @@
 import useAppContext from '../../context/AppContext';
 import CompanyJobCard from '../CompanyJobCard/CompanyJobCard';
-import NewJobModal from '../NewJobModal/NewJobModal';
+import NewJobModal from '../Modals/NewJobModal/NewJobModal';
 import './CompanyJobs.css';
 
 const jobsData = [
