@@ -1,0 +1,126 @@
+.reportstats{
+    height: 100px;
+    width: 274px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: #023047;
+    border: 1px solid #6F6F6F;
+    padding: 25px;
+}
+
+.reportstats .label{
+    font-size: 14px;
+    color: #d3d3d3;
+}
+
+.reportstats .count{
+    font-size: 32px;
+    color: #f6f6f6;
+    font-weight: bold;
+}
+
+.reportstat{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    gap: 10px;
+}
+
+.ticket{
+    height: 150px;
+    width: auto;
+    border-radius: 5px;
+    background-color: #023047;
+    border: 1px solid #6F6F6F;
+    padding: 18px;  
+}
+
+.tktid{
+    font-size: 14px;
+    color: #6F6F6F;
+}
+
+.usertag{
+    height: 24px;
+    border-radius: 16px;
+    background-color: #FFC300;
+    color: #023047;
+    border-color: none;
+    padding: 4px;
+    font-size: 12px;
+    margin-left: 12px;
+}
+
+.progresstag{
+    height: 24px;
+    border-radius: 16px;
+    background-color: #3B82F6;
+    color: #023047;
+    border-color: none;
+    padding: 4px;
+    font-size: 12px;
+    margin-left: 12px;
+}
+
+.resolvetag{
+    height: 24px;
+    border-radius: 16px;
+    background-color: #10B981;
+    color: #023047;
+    border-color: none;
+    padding: 4px;
+    font-size: 12px;
+    margin-left: 12px;
+}
+
+.tktinfo{
+    height: 26px;
+    width: auto;
+    margin-bottom: 10px;
+}
+.tktstage{
+    height: 24px;
+    border-radius: 16px;
+    background-color: #F97316;
+    color: #F6F6F6;
+    border-color: none;
+    padding: 4px;
+    font-size: 12px;
+    margin-left: 12px;
+}
+
+.tktdept{
+    height: 24px;
+    border-radius: 16px;
+    background-color: #023047;
+    color: #F6F6F6;
+    border: 1px solid #6F6F6F;
+    padding: 4px;
+    font-size: 12px;
+    margin-left: 12px;
+}
+
+.tkttitle{
+    font-size: 18px;
+    color: #F6F6F6;
+    font-weight: bold;
+}
+
+.tktdesc{
+    font-size: 14px;
+    color: #d3d3d3;
+    font-weight: lighter;
+}
+
+.tktdetails{
+    height: 54px;
+    width: auto;
+}
+
+.tktfooter{
+    font-size: 14px;
+    color: #6F6F6F;
+    font-weight: lighter;
+}

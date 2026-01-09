@@ -1,0 +1,50 @@
+.jobcategory{
+    height: 538px;
+    width: 550px;
+    border-radius: 10px;
+    background-color: #023047;
+    border: 1px solid #6F6F6F;
+    padding: 24px;
+}
+
+.performingjob{
+    height: 60px;
+    width: auto;
+    border-radius: 5px;
+    background-color: #023047;
+    border: 1px solid #6F6F6F;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobappcount{
+    background-color: #FFC300;
+    color: #023047;
+    border-radius: 15px;
+    border-color: none;
+    font-size: 12px;
+    height: 25px;
+    padding: 5px;
+}
+
+.topjobtitle{
+    font-size: 16px;
+    color: #f6f6f6;
+}
+
+.topcompany{
+    font-size: 14px;
+    color: #d3d3d3;
+}
+
+.reportcats{
+    height: 70px;
+    width: auto;
+    border-radius: 5px;
+    background-color: #023047;
+    border: 1px solid #6F6F6F;
+    padding: 25px;
+
+}

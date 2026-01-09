@@ -1,0 +1,122 @@
+.marketingdesc{
+    font-size: 16px;
+    color: #6f6f6f;
+}
+
+.funnel{
+    height: 410px;
+    width: auto;
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid #6F6F6F;
+    background-color: #023047;
+}
+
+.funnelheader{
+    height: 50px;
+    width: auto;
+    color: #FFC300;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.funneldesc{
+    font-size: 16px;
+    color: #d3d3d3;
+    font-weight: lighter;
+}
+
+.funnelstat{
+    font-size: 16px;
+    padding: 20px;
+    color: #f6f6f6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.funnelstat .count{
+    font-size: 16px;
+    color: #d3d3d3;
+    font-weight: lighter;
+}
+
+.funnlepercentage{
+    font-size: 16px;
+    margin-left: 20px;
+    color: #FFC300;
+    font-weight: bold;
+}
+
+.progressbar{
+    height: 10px;
+    border-radius: 4px;
+    border: 1px solid #6F6F6F;
+    background-color: #6f6f6f;
+    margin-top: -10px;
+}
+
+.pushnotifications{
+    height: 730px;
+    width: auto;
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid #6F6F6F;
+    background-color: #023047;
+}
+
+.pushstats{
+    height: 100px;
+    background-color: #023047;
+    border: 1px solid #6F6F6F;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    padding: 14px;
+    justify-content: space-between;
+}
+
+.pushstatcontent{
+    width: 800px;
+    height: 80px;
+}
+
+.pushststvalues{
+    width: 110px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.notificationtitle{
+    font-size: 16px;
+    font-weight:bold ;
+    color: #f6f6f6;
+}
+
+.notificationdesc{
+    font-size: 14px;
+    color: #d3d3d3;
+}
+
+.notificationvalues{
+    font-size: 12px;
+    color: #6f6f6f;
+}
+
+.notificationrev{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFC300;
+}
+
+.notificationconv{
+    font-size: 14px;
+    color: #22C55E;
+}
+
+.jobstats{
+    height: 538px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
